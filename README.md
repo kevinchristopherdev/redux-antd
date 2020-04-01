@@ -3,15 +3,9 @@ This is  bindings for redux form and redux form antd.
 This library should be compatible for both redux-form and react-final-form.
 Stories for final form are welcome.
 
-[![NPM Downloads](https://img.shields.io/npm/dm/redux-form-antd.svg?style=flat)](https://www.npmjs.com/package/redux-form-antd)
----
-[`redux-form-antd`](https://github.com/zhdmitry/redux-form-antd) is a set of
-wrappers to facilitate the use of antd components with
-[`redux-form`](https://github.com/erikras/redux-form).
+`redux-form-antd` is a set of wrappers to facilitate the use of antd components with `redux-form`.
 
 ---
-
-## [Live Demo](http://zmitry.github.io/redux-form-antd) :eyes:
 
 ## Installation
 
@@ -58,7 +52,6 @@ MyForm = reduxForm({
 
 export default MyForm
 ```
-or you can check stories code [click](https://github.com/zhDmitry/redux-form-antd/blob/master/stories/TextInput.js)
 ## Instance API
 
 #### `getRenderedComponent()`
@@ -118,4 +111,3 @@ is `(mapProps, props) => ({...mapProps})`, where `mapProps` - default mapping
 properties, `props` - redux-form's Field properties.
 
 ---
-inspired by redux-form-material-ui by [erikras](https://github.com/erikras/redux-form-material-ui)
